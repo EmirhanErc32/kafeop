@@ -16,5 +16,12 @@ namespace GorselProgramlamaProje
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AnaSayfa yeniForm = new AnaSayfa();
+            yeniForm.Show();
+            this.Close();
+        }
     }
 }

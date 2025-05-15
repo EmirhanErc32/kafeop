@@ -108,8 +108,17 @@
     <Compile Include="YoneticiPanel.Designer.cs">
       <DependentUpon>YoneticiPanel.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminGiris.resx">
+      <DependentUpon>AdminGiris.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AnaSayfa.resx">
       <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnaYemek.resx">
+      <DependentUpon>AnaYemek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atistirmalik.resx">
+      <DependentUpon>Atistirmalik.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Kahvalti.resx">
       <DependentUpon>Kahvalti.cs</DependentUpon>
@@ -124,6 +133,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SicakIcecek.resx">
+      <DependentUpon>SicakIcecek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SogukIcecek.resx">
+      <DependentUpon>SogukIcecek.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tatli.resx">
       <DependentUpon>Tatli.cs</DependentUpon>
     </EmbeddedResource>

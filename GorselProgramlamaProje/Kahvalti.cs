@@ -16,5 +16,17 @@ namespace GorselProgramlamaProje
         {
             InitializeComponent();
         }
+
+        private void Kahvalti_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AnaSayfa yeniForm = new AnaSayfa();
+            yeniForm.Show();
+            this.Close();
+        }
     }
 }

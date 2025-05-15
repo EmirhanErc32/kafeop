@@ -48,7 +48,9 @@
             // 
             // btn_grs
             // 
+            this.btn_grs.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_grs.BackColor = System.Drawing.Color.Tan;
+            this.btn_grs.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_grs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_grs.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_grs.Location = new System.Drawing.Point(343, 12);
@@ -63,26 +65,29 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Campana Script PERSONAL USE", 47.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 47.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Yellow;
             this.label1.Location = new System.Drawing.Point(37, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(315, 94);
+            this.label1.Size = new System.Drawing.Size(332, 73);
             this.label1.TabIndex = 1;
             this.label1.Text = "KAFE ADI";
             // 
             // khvlt_pic
             // 
             this.khvlt_pic.BackgroundImage = global::GorselProgramlamaProje.Properties.Resources.khvlt;
+            this.khvlt_pic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.khvlt_pic.Location = new System.Drawing.Point(36, 125);
             this.khvlt_pic.Name = "khvlt_pic";
             this.khvlt_pic.Size = new System.Drawing.Size(190, 140);
             this.khvlt_pic.TabIndex = 2;
             this.khvlt_pic.TabStop = false;
+            this.khvlt_pic.Click += new System.EventHandler(this.khvlt_pic_Click);
             // 
             // tatli_pic
             // 
             this.tatli_pic.BackgroundImage = global::GorselProgramlamaProje.Properties.Resources.tatli;
+            this.tatli_pic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.tatli_pic.Location = new System.Drawing.Point(272, 125);
             this.tatli_pic.Name = "tatli_pic";
             this.tatli_pic.Size = new System.Drawing.Size(190, 140);
@@ -92,6 +97,7 @@
             // atstr_pic
             // 
             this.atstr_pic.BackgroundImage = global::GorselProgramlamaProje.Properties.Resources.atstr;
+            this.atstr_pic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.atstr_pic.Location = new System.Drawing.Point(273, 302);
             this.atstr_pic.Name = "atstr_pic";
             this.atstr_pic.Size = new System.Drawing.Size(190, 140);
@@ -101,6 +107,7 @@
             // anaymk_pic
             // 
             this.anaymk_pic.BackgroundImage = global::GorselProgramlamaProje.Properties.Resources.anaymk;
+            this.anaymk_pic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.anaymk_pic.Location = new System.Drawing.Point(37, 302);
             this.anaymk_pic.Name = "anaymk_pic";
             this.anaymk_pic.Size = new System.Drawing.Size(190, 140);
@@ -110,6 +117,7 @@
             // sck_pic
             // 
             this.sck_pic.BackgroundImage = global::GorselProgramlamaProje.Properties.Resources.sck;
+            this.sck_pic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sck_pic.Location = new System.Drawing.Point(273, 477);
             this.sck_pic.Name = "sck_pic";
             this.sck_pic.Size = new System.Drawing.Size(190, 140);
@@ -119,6 +127,7 @@
             // sgk_pic
             // 
             this.sgk_pic.BackgroundImage = global::GorselProgramlamaProje.Properties.Resources.sgk;
+            this.sgk_pic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sgk_pic.Location = new System.Drawing.Point(37, 477);
             this.sgk_pic.Name = "sgk_pic";
             this.sgk_pic.Size = new System.Drawing.Size(190, 140);
@@ -152,8 +161,11 @@
             this.Controls.Add(this.tatli_pic);
             this.Controls.Add(this.khvlt_pic);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "AnaSayfa";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AnaSayfa";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AnaSayfa_FormClosed);
             this.Load += new System.EventHandler(this.AnaSayfa_Load);
             ((System.ComponentModel.ISupportInitialize)(this.khvlt_pic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tatli_pic)).EndInit();

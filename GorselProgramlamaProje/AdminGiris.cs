@@ -16,5 +16,13 @@ namespace GorselProgramlamaProje
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AnaSayfa AnaSayfa = new AnaSayfa(); 
+           AnaSayfa.Show();                    
+            this.Hide();                            
+
+        }
     }
 }
