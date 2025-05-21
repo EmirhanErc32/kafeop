@@ -223,17 +223,29 @@
     <Compile Include="Atistirmalik.Designer.cs">
       <DependentUpon>Atistirmalik.cs</DependentUpon>
     </Compile>
+    <Compile Include="ciro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ciro.Designer.cs">
+      <DependentUpon>ciro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Kahvalti.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Kahvalti.Designer.cs">
       <DependentUpon>Kahvalti.cs</DependentUpon>
     </Compile>
-    <Compile Include="Personel.cs">
-      <SubType>Form</SubType>
+    <Compile Include="menu.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Personel.Designer.cs">
-      <DependentUpon>Personel.cs</DependentUpon>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="personel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="personel.Designer.cs">
+      <DependentUpon>personel.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -249,11 +261,23 @@
     <Compile Include="SogukIcecek.Designer.cs">
       <DependentUpon>SogukIcecek.cs</DependentUpon>
     </Compile>
+    <Compile Include="Stok.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Stok.Designer.cs">
+      <DependentUpon>Stok.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tatli.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Tatli.Designer.cs">
       <DependentUpon>Tatli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yoneticimenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="yoneticimenu.Designer.cs">
+      <DependentUpon>yoneticimenu.cs</DependentUpon>
     </Compile>
     <Compile Include="YoneticiPanel.cs">
       <SubType>Form</SubType>
@@ -273,8 +297,17 @@
     <EmbeddedResource Include="Atistirmalik.resx">
       <DependentUpon>Atistirmalik.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ciro.resx">
+      <DependentUpon>ciro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Kahvalti.resx">
       <DependentUpon>Kahvalti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personel.resx">
+      <DependentUpon>personel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -292,8 +325,17 @@
     <EmbeddedResource Include="SogukIcecek.resx">
       <DependentUpon>SogukIcecek.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Stok.resx">
+      <DependentUpon>Stok.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tatli.resx">
       <DependentUpon>Tatli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yoneticimenu.resx">
+      <DependentUpon>yoneticimenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YoneticiPanel.resx">
+      <DependentUpon>YoneticiPanel.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -332,6 +374,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Pictures\menuBackground.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pictures\ANASAYFA.png" />
+    <Content Include="Pictures\ciro.png" />
+    <Content Include="Pictures\Home.png" />
+    <Content Include="Pictures\homebutton.png" />
+    <Content Include="Pictures\Logout.png" />
+    <Content Include="Pictures\menu.png" />
+    <Content Include="Pictures\Person.png" />
+    <Content Include="Pictures\Stok.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets')" />

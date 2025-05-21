@@ -63,15 +63,14 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 47.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Campana Script PERSONAL USE", 84.74998F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Yellow;
-            this.label1.Location = new System.Drawing.Point(37, 28);
+            this.label1.Location = new System.Drawing.Point(-1, -1);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(332, 73);
+            this.label1.Size = new System.Drawing.Size(489, 241);
             this.label1.TabIndex = 1;
-            this.label1.Text = "KAFE ADI";
+            this.label1.Text = "Ercanlar";
             // 
             // khvlt_pic
             // 

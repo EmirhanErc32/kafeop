@@ -1,16 +1,16 @@
 ﻿namespace GorselProgramlamaProje
 {
-    partial class Personel
+    partial class personel
     {
-        /// <summary>
-        /// Required designer variable.
+        /// <summary> 
+        ///Gerekli tasarımcı değişkeni.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
+        /// <summary> 
+        ///Kullanılan tüm kaynakları temizleyin.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        ///<param name="disposing">yönetilen kaynaklar dispose edilmeliyse doğru; aksi halde yanlış.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,18 +20,24 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Bileşen Tasarımcısı üretimi kod
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        /// <summary> 
+        /// Tasarımcı desteği için gerekli metot - bu metodun 
+        ///içeriğini kod düzenleyici ile değiştirmeyin.
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // personel
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Personel";
+            this.Name = "personel";
+            this.Size = new System.Drawing.Size(681, 448);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
